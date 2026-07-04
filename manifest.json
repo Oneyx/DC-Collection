@@ -1,0 +1,16 @@
+{
+  "id": "org.tuonome.dccollection",
+  "version": "1.0.0",
+  "name": "DC Movies Collection",
+  "description": "Collezione completa dei film live-action DC Comics: classici Superman/Batman, film standalone e DCEU/DCU",
+  "resources": ["catalog"],
+  "types": ["movie"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "dc-movies",
+      "name": "DC Movies"
+    }
+  ],
+  "idPrefixes": ["tt"]
+}
